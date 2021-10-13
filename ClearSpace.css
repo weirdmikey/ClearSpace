@@ -1,0 +1,148 @@
+/*Setting background image */
+.app-2rEoOp {
+	background-image: var(--background-image);
+    	position: absolute;
+    	content: '';
+      	height: 100%;
+      	width: 100%;
+    	background-size: cover;
+    	background-repeat: no-repeat;
+    	background-position: center;
+}
+
+/* Making all the backgrounds/windows transparent */
+.theme-dark {
+	--background-primary: rgba(0,0,0,0.1);
+	--background-secondary: rgba(0,0,0,0.30);
+	--background-tertiary: none;
+    	--background-accent: none;
+	--background-secondary-alt: rgba(0,0,0,0.45)
+}
+.scroller-1Bvpku{
+	background: rgba(0,0,0,0.51);
+}
+.container-1r6BKw.themed-ANHk51, .panels-j1Uci_{
+	background: rgba(0,0,0,0.30);
+}
+.theme-dark .container-1D34oG, .footer-3UKYOU, .bodyInnerWrapper-26fQXj, .privateChannels-1nO12o, .members-1998pB>div{
+	background: none;
+}
+
+/* dim chat/main windows for better contrast */
+.chat-3bRxxu, .applicationStore-1pNvnv, .peopleColumn-29fq28{
+	background: rgba(0,0,0,0.31);
+}
+
+/* Set the windows bar to black and slightly transparent */
+.titleBar-AC4pGV {
+	background: rgba(0,0,0,0.6);
+	margin-top: 0px;
+	padding-top: 4px;
+}
+
+/* Tweaks for the base dark theme varables */
+	/* chat font colour*/
+.theme-dark{
+	--text-normal: rgba(255,255,255,1);
+	--channels-default: rgb(170,170,170);
+	--text-muted: rgb(170,170,170);
+		/* Ping highlight colour */
+	--background-mentioned: var(--ping-color);
+	--background-mentioned-hover: var(--ping-color);
+		/* menu highlights */
+	--background-modifier-selected: var(accent-color);
+	--background-modifier-hover: var(accent-color-hover);
+		/* Message box background */
+	--channeltextarea-background: var(--primary-colour);
+			/* scrollbars */
+	--scrollbar-auto-thumb: var(--primary-colour);
+	--scrollbar-auto-track: rgba(0,0,0,0.2);
+	--scrollbar-thin-thumb: var(--primary-colour);
+}
+/* Chat font size */
+.markup-2BOw-j{
+	font-weight: 500;
+}
+/* better padding in settings */
+.sidebarRegion-VFTUkN {
+	flex: 0.05 0 218px;
+}
+.contentColumn-2hrIYH, .customColumn-Rb6toI{
+	max-width: none;
+}
+
+/* Emoji, stick & GIF picker */
+.theme-dark .contentWrapper-SvZHNd, .inspector-3LQtX9, .inspector-S2gM3e{
+    background-color: var(--primary-colour);
+}
+.inner-3ErfOT, .inner-2P4tQO{
+background-color: var(--searchBox-colour);
+}
+
+/* markdown box background and border */
+.markup-2BOw-j code {
+	background: var(--markdown-box-color);
+	border-color: rgba(255,255,255,0.2);
+ }
+
+/* user info popout box. */
+.userPopout-xaxa6l{
+background-color: var(--primary-colour);
+}
+.input-2_SIlA{
+background-color: var(--searchBox-color);
+}
+
+/* thread & pinned message & inbox popout*/
+.theme-dark .messagesPopoutWrap-1MQ1bW, .container-7uh5fX, .container-enaOkj{
+	background: var(--primary-colour);
+	border: 2px solid;
+	border-color: rgba(0,0,0,0.3);
+}
+.messageGroupWrapper-o-Zw7G, .container-2I9Hud{
+	background-color: var(--markdown-color);
+}
+.sectionHeader-17Aate{
+	border-radius: 25px;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Colapsable channel bar */
+.sidebar-2K8pFh{
+	width: 58px;
+	transition: 0.8s;
+	transition-delay: 1.2s;
+	border-right: 10px solid;
+	border-right-color: rgba(0, 0, 0, 0.42) ;
+}
+.sidebar-2K8pFh:hover{
+	width: 250px;
+	transition: 0.3s;
+	border-right: none;
+}
+
+/* buttons */
+.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a, .lookFilled-1Gx00P.colorBrand-3pXr91, .side-8zPYf6 .itemSelected-1qLhcL,
+ .da-app #bd-settings-sidebar .ui-tab-bar-item.selected, .bd-pfbtn, .bda-slist .bda-footer button, .selected-mKYnfr.option-n0icdO, .wrapper-3jrx9n, .barFill-23-gu-, .da-app .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-,
+ .da-app .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-:hover, .da-app .member-3W1lQa.popout-open .content-OzHfo4, .da-app .member-3W1lQa.popout-open:hover .content-OzHfo4, .lookFilled-1Gx00P.colorBrand-3pXr91:disabled, .aka-1mqp34, .wrapper-232cHJ, .search-bar,
+.theme-dark .input-2VB9rf, .theme-dark .keybindShortcut-1BD6Z1 span, .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary, .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary .badge, .theme-dark #friends .tab-bar .tab-bar-item.selected,
+.da-app .defaultIndicator-2X8Auf, .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6, .botTagRegular-2HEhHi, .wrapper-2NJDcI, .theme-dark .footer-1FPmkC, .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary.selected,
+ .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary.selected .badge, .da-app .tag-HanR-9, .da-app .tileWrapper-2khh-w, .theme-dark .libraryFilterInput-3JzqZD, .theme-dark .iconCircle-1dlYo0, .theme-dark .browseSearchInput-Jt8kg0,
+.theme-dark .container-2x5lvQ header, .theme-dark .message-2qRu38, .search-bar.search-bar-light, .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S,
+.theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r, .uploadModal-2ifh8j .footer-3mqk7D .button-primary, .form-deprecated .btn-primary, .form.deprecated .btn-primary {
+	background: var(--buttons-colour);
+	border: 2px solid;
+	border-color: rgba(0,0,0,0.3);
+}
+
+/* When hovering over buttons */
+.contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active,  .channel-2QD9_O:hover a, .da-app .side-8zPYf6 .itemDefault-3Jdr52:hover,
+ .lookFilled-1Gx00P.colorBrand-3pXr91:hover, .da-app #bd-settings-sidebar .ui-tab-bar-item:hover, .option-n0icdO, .da-app .member-3W1lQa:hover .content-OzHfo4, .theme-dark #friends .friends-table .friends-row:hover,
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected), .da-app .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover, .form.deprecated .form-inner, .need-help-modal.form.deprecated .footer,
+.need-help-modal.form.deprecated .header input[type=text], .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover, .theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected),
+.create-guild-container.deprecated .action:hover.create .btn {
+	background: var(--buttons-hover-color);
+	border: 2px solid;
+	border-color: rgba(0,0,0,0.3);
+}
