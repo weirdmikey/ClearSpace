@@ -50,8 +50,8 @@
 	--background-mentioned: var(--ping-color);
 	--background-mentioned-hover: var(--ping-color);
 		/* menu highlights */
-	--background-modifier-selected: var(accent-color);
-	--background-modifier-hover: var(accent-color-hover);
+	--background-modifier-selected: var(--accent-color);
+	--background-modifier-hover: var(--accent-color-hover);
 		/* Message box background */
 	--channeltextarea-background: var(--primary-colour);
 			/* scrollbars */
