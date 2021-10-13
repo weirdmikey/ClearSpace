@@ -81,7 +81,7 @@ background-color: var(--searchBox-colour);
 
 /* markdown box background and border */
 .markup-2BOw-j code {
-	background: var(--markdown-box-color);
+	background: var(--markdown-color);
 	border-color: rgba(255,255,255,0.2);
  }
 
