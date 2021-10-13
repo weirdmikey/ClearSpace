@@ -105,7 +105,7 @@ background-color: var(--searchBox-color);
 .sectionHeader-17Aate{
 	border-radius: 25px;
 	padding: 10px;
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: var(--markdown-color);
 }
 
 /* Colapsable channel bar */
