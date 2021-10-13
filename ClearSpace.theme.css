@@ -1,0 +1,24 @@
+/*//META{"name":"ClearSpace","description":"Minimalistic theme with hoverable channel sidebar.","author":"Amerak","version":"0.8.4","source":"https://github.com/weirdmikey/ClearSpace"}*//**/ 
+
+@import url(https://raw.githack.com/weirdmikey/ClearSpace/main/ClearSpace.css);
+@import url(https://raw.githack.com/weirdmikey/ClearSpace/main/status.css);
+
+
+:root {
+	/* background URL */
+	--background-image: url(https://images.wallpapersden.com/image/download/melissa-benoist-supergirl-2020_bGZpaWaUmZqaraWkpJRnamtlrWZrZWU.jpg);
+	/* Primary colour for theme */
+	--primary-colour: rgba(255,20,147,0.5);
+	/* Accents/hovers */
+	--accent-color: rgba(255,20,147,0.5);
+	--accent-color-hover: rgba(255,20,147,0.2);
+	/* Ping notification */
+	--ping-color: rgba(255,20,147,0.2);
+	/* Searchboxes colour */
+	--searchBox-color: rgba(0,0,0,1);
+	/* Markdown boxes */
+	--markdown-color: rgba(0,0,0,0.8);
+	/* Buttons*/
+	--buttons-color: rgba(255,20,147,0.65);
+	--buttons-hover-color: rgba(255,20,147,0.5);
+}
