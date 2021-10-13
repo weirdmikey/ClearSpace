@@ -76,7 +76,7 @@
     background-color: var(--primary-colour);
 }
 .inner-3ErfOT, .inner-2P4tQO{
-background-color: var(--searchBox-colour);
+background-color: var(--searchBox-color);
 }
 
 /* markdown box background and border */
@@ -131,7 +131,7 @@ background-color: var(--searchBox-color);
  .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary.selected .badge, .da-app .tag-HanR-9, .da-app .tileWrapper-2khh-w, .theme-dark .libraryFilterInput-3JzqZD, .theme-dark .iconCircle-1dlYo0, .theme-dark .browseSearchInput-Jt8kg0,
 .theme-dark .container-2x5lvQ header, .theme-dark .message-2qRu38, .search-bar.search-bar-light, .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S,
 .theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r, .uploadModal-2ifh8j .footer-3mqk7D .button-primary, .form-deprecated .btn-primary, .form.deprecated .btn-primary {
-	background: var(--buttons-colour);
+	background: var(--buttons-color);
 	border: 2px solid;
 	border-color: rgba(0,0,0,0.3);
 }
