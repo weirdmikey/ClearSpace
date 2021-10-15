@@ -1,7 +1,7 @@
 # ClearSpace  [WIP]
 A basic discord theme with hoverable channel sidebar.
 
-![Default settings.](https://cdn.discordapp.com/attachments/731246870017605722/898614087498477589/Discord_scq7ltUhIl.jpg)
+![Default settings.](img/sidebar.gif)
 
 ## User editable variables:
 - --background-image: url(https://images.wallpapersden.com/image/download/melissa-benoist-supergirl-2020_bGZpaWaUmZqaraWkpJRnamtlrWZrZWU.jpg);  /* background URL */
