@@ -28,7 +28,7 @@
 	background: none;
 }
 
-/* dim chat/main windows for better contrast */
+/* dim chat windows for better contrast */
 .chat-3bRxxu, .applicationStore-1pNvnv, .peopleColumn-29fq28{
 	background: rgba(0,0,0,0.31);
 }
@@ -63,7 +63,7 @@
 .markup-2BOw-j{
 	font-weight: 500;
 }
-/* better padding in settings */
+/* padding in settings */
 .sidebarRegion-VFTUkN {
 	flex: 0.05 0 218px;
 }
@@ -71,7 +71,7 @@
 	max-width: none;
 }
 
-/* Emoji, stick & GIF picker */
+/* Emoji, sticker & GIF picker */
 .theme-dark .contentWrapper-SvZHNd, .inspector-3LQtX9, .inspector-S2gM3e{
     background-color: var(--primary-colour);
 }
@@ -100,12 +100,12 @@ background-color: var(--searchBox-color);
     padding: 7px;
     margin-bottom: 10px;
 }
-.theme-dark .newPopoutActivityStyles .spotifyIcon-2J9kSv, .theme-light .newPopoutActivityStyles .spotifyIcon-2J9kSv {
+.theme-dark .newPopoutActivityStyles .spotifyIcon-2J9kSv{
     top: 5px;
     right: 7px;
 } 
 
-/* thread & pinned message & inbox popout*/
+/* thread, pinned message & inbox popout*/
 .theme-dark .messagesPopoutWrap-1MQ1bW, .container-7uh5fX, .container-enaOkj{
 	background: var(--primary-colour);
 	border: 2px solid;
@@ -147,10 +147,14 @@ background-color: var(--searchBox-color);
 	transition-delay: 0.17s;
 	border-right: 0px solid;
 }
-/* Side bar, remove invite/settings icon unless you hover over channel  */
+/* Remove invite/settings icon unless you hover over a channel in the sidebar  */
 .containerDefault--pIXnN.selected-3LIHYU .iconItem-F7GRxr, .iconVisibility-sTNpHs:focus-within .iconItem-F7GRxr{
 display: none;
 } 
+/* unread messages hash icon colour */
+.modeUnread-1qO3K1 .icon-1DeIlz, .modeUnread-1qO3K1:hover .icon-1DeIlz{
+color: var(--interactive-active);
+}
 
 /* buttons */
 .contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM, .channel-2QD9_O.selected-1HYmZZ a, .lookFilled-1Gx00P.colorBrand-3pXr91, .side-8zPYf6 .itemSelected-1qLhcL,
