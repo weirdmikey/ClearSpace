@@ -30,7 +30,7 @@
 
 /* dim chat windows for better contrast */
 .chat-3bRxxu, .applicationStore-1pNvnv, .peopleColumn-29fq28{
-	background: rgba(0,0,0,0.31);
+	background: rgba(0,0,0,var(--chat-opacity));
 }
 
 /* Set the windows bar to black and slightly transparent */
