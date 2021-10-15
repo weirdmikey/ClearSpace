@@ -63,6 +63,11 @@
 .markup-2BOw-j{
 	font-weight: 500;
 }
+/* Username font size */
+.username-1A8OIy{
+	font-weight: 700;
+}
+
 /* padding in settings */
 .sidebarRegion-VFTUkN {
 	flex: 0.05 0 218px;
@@ -73,7 +78,8 @@
 
 /* Emoji, sticker & GIF picker */
 .theme-dark .contentWrapper-SvZHNd, .inspector-3LQtX9, .inspector-S2gM3e{
-    background-color: var(--primary-colour);
+	background-color: var(--primary-colour);
+	backdrop-filter: blur(2px);
 }
 .inner-3ErfOT, .inner-2P4tQO{
 background-color: var(--searchBox-color);
@@ -87,7 +93,8 @@ background-color: var(--searchBox-color);
 
 /* user info popout box. */
 .userPopout-xaxa6l{
-background-color: var(--primary-colour);
+	background-color: var(--primary-colour);
+	backdrop-filter: blur(2px);
 }
 .input-2_SIlA{
 background-color: var(--searchBox-color);
@@ -108,6 +115,7 @@ background-color: var(--searchBox-color);
 /* thread, pinned message & inbox popout*/
 .theme-dark .messagesPopoutWrap-1MQ1bW, .container-7uh5fX, .container-enaOkj{
 	background: var(--primary-colour);
+	backdrop-filter: blur(2px);
 	border: 2px solid;
 	border-color: rgba(0,0,0,0.3);
 }
@@ -123,6 +131,7 @@ background-color: var(--searchBox-color);
 /* Message search box */
 .theme-dark .container-3ayLPN{
 	background-color: var(--markdown-color);
+	backdrop-filter: blur(2px);
 	border: 2px solid;
 	border-radius: 10px;
 }
