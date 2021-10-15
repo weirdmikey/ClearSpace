@@ -3,20 +3,13 @@ A basic discord theme with hoverable channel sidebar.
 
 ![Default settings.](https://cdn.discordapp.com/attachments/731246870017605722/898614087498477589/Discord_scq7ltUhIl.jpg)
 
-#### User editable variables:
-- /* background URL */
-- --background-image: url(https://images.wallpapersden.com/image/download/melissa-benoist-supergirl-2020_bGZpaWaUmZqaraWkpJRnamtlrWZrZWU.jpg);
-- /* Primary colour */
-- --primary-colour: rgba(255,20,147,0.5);
-- /* Accents/hovers */
-- --accent-color: rgba(255,20,147,0.5);
-- --accent-color-hover: rgba(255,20,147,0.2);
-- /* Ping notification */
-- --ping-color: rgba(255,20,147,0.2);
-- /* Search box colour */
-- --searchBox-color: rgba(0,0,0,1);
-- /* Markdown boxes */
-- --markdown-color: rgba(0,0,0,0.8);
-- /* Buttons*/
-- --buttons-color: rgba(255,20,147,0.65);
-- --buttons-hover-color: rgba(255,20,147,0.5);
+## User editable variables:
+- --background-image: url(https://images.wallpapersden.com/image/download/melissa-benoist-supergirl-2020_bGZpaWaUmZqaraWkpJRnamtlrWZrZWU.jpg);  /* background URL */
+- --primary-colour: rgba(255,20,147,0.5);   /* Primary colour */
+- --accent-color: rgba(255,20,147,0.5);   /* Accent colour */
+- --accent-color-hover: rgba(255,20,147,0.2);   /* Accents colour on hover */
+- --ping-color: rgba(255,20,147,0.2);   /* Ping notification colour */
+- --searchBox-color: rgba(0,0,0,1);   /* Colour of all the Search boxes */
+- --markdown-color: rgba(0,0,0,0.8);    /* Markdown boxes colour */
+- --buttons-color: rgba(255,20,147,0.65);   /* Button colour*/
+- --buttons-hover-color: rgba(255,20,147,0.5);    /* Button colour on hover*/
