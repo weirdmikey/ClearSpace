@@ -3,8 +3,9 @@ A basic discord theme with hoverable channel sidebar.
 
 ![Default settings.](img/sidebar.gif)
 
-## User editable variables:
+## User variables:
 - --background-image: url(https://images.wallpapersden.com/image/download/melissa-benoist-supergirl-2020_bGZpaWaUmZqaraWkpJRnamtlrWZrZWU.jpg);  /* background URL */
+- --chat-opacity: 0.31; /* edit opacity of main chat window */
 - --primary-colour: rgba(255,20,147,0.5);   /* Primary colour */
 - --accent-color: rgba(255,20,147,0.5);   /* Accent colour */
 - --accent-color-hover: rgba(255,20,147,0.2);   /* Accents colour on hover */
