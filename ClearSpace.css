@@ -152,7 +152,7 @@ background-color: var(--searchBox-color);
 	transition: 0.8s;
 	transition-delay: 1.2s;
 	border-right: 10px solid;
-	border-right-color: rgba(0, 0, 0, 0.42);
+	border-right-color: rgba(0, 0, 0, 0.22);
 	background-color: rgba(0,0,0,var(--sidebar-transparency));
 }
 .sidebar-2K8pFh:hover{
