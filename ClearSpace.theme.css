@@ -1,4 +1,4 @@
-/*//META{"name":"ClearSpace","description":"Minimalistic theme with hoverable channel sidebar.","author":"Amerak","version":"0.8.5","source":"https://github.com/weirdmikey/ClearSpace"}*//**/ 
+/*//META{"name":"ClearSpace","description":"A basic theme with a hoverable channel sidebar.","author":"Amerak","version":"0.9.0","source":"https://github.com/weirdmikey/ClearSpace"}*//**/ 
 
 @import url(https://raw.githack.com/weirdmikey/ClearSpace/main/ClearSpace.css);
 @import url(https://raw.githack.com/weirdmikey/ClearSpace/main/status.css);
@@ -7,8 +7,10 @@
 :root {
 	/* background URL */
 	--background-image: url(https://images.wallpapersden.com/image/download/melissa-benoist-supergirl-2020_bGZpaWaUmZqaraWkpJRnamtlrWZrZWU.jpg);
-	/* Opacity of Main chat window */
-	--chat-opacity: 0.31;
+	/* set transparency of Main chat window, 0 is full brightness, 1 is solid black*/
+	--chat-transparency: 0.31;
+	/* Set transparency of sidebar. 0 is fully transparent, 1 is solid black*/
+	--sidebar-transparency: 0.51;
 	/* Primary colour for theme */
 	--primary-colour: rgba(255,20,147,0.5);
 	/* Accents/hovers */
@@ -23,4 +25,4 @@
 	/* Buttons*/
 	--buttons-color: rgba(255,20,147,0.65);
 	--buttons-hover-color: rgba(255,20,147,0.5);
-}
+}		

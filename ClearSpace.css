@@ -15,22 +15,22 @@
 	--background-primary: rgba(0,0,0,0.1);
 	--background-secondary: rgba(0,0,0,0.30);
 	--background-tertiary: none;
-    	--background-accent: none;
+    --background-accent: none;
 	--background-secondary-alt: rgba(0,0,0,0.45)
 }
 .scroller-1Bvpku{
-	background: rgba(0,0,0,0.51);
+	background: rgba(0,0,0,var(--sidebar-transparency));
 }
-.container-1r6BKw.themed-ANHk51, .panels-j1Uci_{
-	background: rgba(0,0,0,0.30);
+.container-1r6BKw.themed-ANHk51{
+	background: var(--background-secondary);
 }
-.theme-dark .container-1D34oG, .footer-3UKYOU, .bodyInnerWrapper-26fQXj, .privateChannels-1nO12o, .members-1998pB>div{
+.theme-dark .container-1D34oG, .footer-3UKYOU, .bodyInnerWrapper-26fQXj, .privateChannels-1nO12o, .members-1998pB>div, .container-3w7J-x, .panels-j1Uci_{
 	background: none;
 }
 
 /* dim chat windows for better contrast */
 .chat-3bRxxu, .applicationStore-1pNvnv, .peopleColumn-29fq28{
-	background: rgba(0,0,0,var(--chat-opacity));
+	background: rgba(0,0,0,var(--chat-transparency));
 }
 
 /* Set the windows bar to black and slightly transparent */
@@ -66,6 +66,10 @@
 /* Username font size */
 .username-1A8OIy{
 	font-weight: 700;
+}
+/* date devider */
+.content-1o0f9g{
+    background: rgba(0,0,0,0.4);
 }
 
 /* padding in settings */
@@ -148,7 +152,8 @@ background-color: var(--searchBox-color);
 	transition: 0.8s;
 	transition-delay: 1.2s;
 	border-right: 10px solid;
-	border-right-color: rgba(0, 0, 0, 0.42) ;
+	border-right-color: rgba(0, 0, 0, 0.42);
+	background-color: rgba(0,0,0,var(--sidebar-transparency));
 }
 .sidebar-2K8pFh:hover{
 	width: 250px;
