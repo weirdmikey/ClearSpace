@@ -24,7 +24,7 @@
 .container-1r6BKw.themed-ANHk51{
 	background: var(--background-secondary);
 }
-.theme-dark .container-1D34oG, .footer-3UKYOU, .bodyInnerWrapper-26fQXj, .privateChannels-1nO12o, .members-1998pB>div, .container-3w7J-x, .panels-j1Uci_{
+.theme-dark .container-1D34oG, .footer-3UKYOU, .bodyInnerWrapper-26fQXj, .privateChannels-1nO12o, .members-1998pB>div, .container-3w7J-x, .panels-j1Uci_, .scroller-1JbKMe{
 	background: none;
 }
 
@@ -103,6 +103,13 @@ background-color: var(--searchBox-color);
 .input-2_SIlA{
 background-color: var(--searchBox-color);
 }
+.body-r6_QPy, .topSection-y3p-_D{
+background: none;
+}
+.theme-dark .root-1gCeng{
+background-color: var(--primary-colour);
+backdrop-filter: blur(2px);
+}
 /* spotify & streaming activity in user info popout*/
 .activity-2INFPu {
     background-color: rgba(0,0,0,0.6);
@@ -152,7 +159,7 @@ background-color: var(--searchBox-color);
 	transition: 0.8s;
 	transition-delay: 1.2s;
 	border-right: 10px solid;
-	border-right-color: rgba(0, 0, 0, 0.22);
+	border-right-color: rgba(0, 0, 0, 0.42);
 	background-color: rgba(0,0,0,var(--sidebar-transparency));
 }
 .sidebar-2K8pFh:hover{
@@ -198,4 +205,15 @@ color: var(--interactive-active);
 /* Discord Icon color */ 
 .childWrapper-anI2G9 {
     color:var(--primary-colour); 
+}
+
+/* rightclick menu colour */
+.menu-3sdvDG{
+background-color: var(--primary-colour);
+}
+.labelContainer-1BLJti{
+    backdrop-filter: blur(2px);
+}
+.colorDefault-2K3EoJ.focused-3afm-j{
+    background-color: var(--buttons-hover-color);
 }
