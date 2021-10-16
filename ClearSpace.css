@@ -24,7 +24,7 @@
 .container-1r6BKw.themed-ANHk51{
 	background: var(--background-secondary);
 }
-.theme-dark .container-1D34oG, .footer-3UKYOU, .bodyInnerWrapper-26fQXj, .privateChannels-1nO12o, .members-1998pB>div, .container-3w7J-x, .panels-j1Uci_, .scroller-1JbKMe{
+.theme-dark .container-1D34oG, .footer-3UKYOU, .bodyInnerWrapper-26fQXj, .privateChannels-1nO12o, .members-1998pB>div, .container-3w7J-x, .panels-j1Uci_, .scroller-1JbKMe, .body-r6_QPy, .topSection-y3p-_D{
 	background: none;
 }
 
@@ -67,7 +67,7 @@
 .username-1A8OIy{
 	font-weight: 700;
 }
-/* date devider */
+/* date divider */
 .content-1o0f9g{
     background: rgba(0,0,0,0.4);
 }
@@ -78,6 +78,10 @@
 }
 .contentColumn-2hrIYH, .customColumn-Rb6toI{
 	max-width: none;
+}
+/* Making boxes more readable in settings*/
+.authedApp-mj2Hmd{
+	background-color: rgba(0,0,0,0.2);
 }
 
 /* Emoji, sticker & GIF picker */
@@ -96,20 +100,14 @@ background-color: var(--searchBox-color);
  }
 
 /* user info popout box. */
-.userPopout-xaxa6l{
+.userPopout-xaxa6l, .theme-dark .root-1gCeng{
 	background-color: var(--primary-colour);
 	backdrop-filter: blur(2px);
 }
 .input-2_SIlA{
 background-color: var(--searchBox-color);
 }
-.body-r6_QPy, .topSection-y3p-_D{
-background: none;
-}
-.theme-dark .root-1gCeng{
-background-color: var(--primary-colour);
-backdrop-filter: blur(2px);
-}
+
 /* spotify & streaming activity in user info popout*/
 .activity-2INFPu {
     background-color: rgba(0,0,0,0.6);
@@ -200,6 +198,11 @@ color: var(--interactive-active);
 	background: var(--buttons-hover-color);
 	border: 2px solid;
 	border-color: rgba(0,0,0,0.3);
+}
+
+/* Set a background colour for danger buttons */
+.colorDanger-2qLCe1{
+    background-color: rgba(0,0,0,0.2);
 }
 
 /* Discord Icon color */ 
