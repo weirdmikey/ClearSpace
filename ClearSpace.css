@@ -29,7 +29,7 @@
 }
 
 /* dim chat windows for better contrast */
-.chat-3bRxxu, .applicationStore-1pNvnv, .peopleColumn-29fq28{
+.chat-3bRxxu, .applicationStore-1pNvnv, .peopleColumn-29fq28, .theme-dark .pageWrapper-1PgVDX{
 	background: rgba(0,0,0,var(--chat-transparency));
 }
 
@@ -103,7 +103,8 @@ background-color: var(--searchBox-color);
     border-radius: 5px;
 }
 [role="combobox"][aria-label*="Emoji"]:before{
-    background-color: var(--primary-colour);
+    	background-color: var(--primary-colour);
+	backdrop-filter:blur(2px);
 }
 
 /* markdown box background and border */
@@ -233,3 +234,18 @@ background-color: var(--primary-colour);
 .colorDefault-2K3EoJ.focused-3afm-j{
     background-color: var(--buttons-hover-color);
 }
+
+/* Create server window */
+.theme-light .footer-2gL1pp, .theme-dark .footer-2gL1pp{
+background-color: var(--primary-colour);
+}
+.container-UC8Ug1{
+background-color: rgba(0,0,0,0.4);
+}
+.colorStandard-2KCXvj{
+color: white
+}
+.colorHeaderSecondary-3Sp3Ft{
+color:rgb(170,170,170);
+}
+
