@@ -5,7 +5,8 @@ A basic discord theme with hoverable channel sidebar.
 
 ## User variables:
 - --background-image: url(https://images.wallpapersden.com/image/download/melissa-benoist-supergirl-2020_bGZpaWaUmZqaraWkpJRnamtlrWZrZWU.jpg);  /* background URL */
-- --chat-opacity: 0.31; /* edit opacity of main chat window */
+- --chat-transparency: 0.31; /* set transparency of Main chat window, 0 is full brightness, 1 is solid black */
+- --sidebar-transparency: 0.51;   /* Set transparency of sidebar. 0 is fully transparent, 1 is solid black*/
 - --primary-colour: rgba(255,20,147,0.5);   /* Primary colour */
 - --accent-color: rgba(255,20,147,0.5);   /* Accent colour */
 - --accent-color-hover: rgba(255,20,147,0.2);   /* Accents colour on hover */
