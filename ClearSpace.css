@@ -1,5 +1,5 @@
 /*Setting background image */
-.app-2rEoOp {
+#app-mount  {
 	background-image: var(--background-image);
     	position: absolute;
     	content: '';
@@ -29,12 +29,12 @@
 }
 
 /* dim chat windows for better contrast */
-.chat-3bRxxu, .applicationStore-1pNvnv, .peopleColumn-29fq28, .theme-dark .pageWrapper-1PgVDX{
+.chat-2ZfjoI, .sidebar-nqHbhN, .peopleColumn-29fq28, .theme-dark .pageWrapper-1PgVDX{
 	background: rgba(0,0,0,var(--chat-transparency));
 }
 
 /* Set the windows bar to black and slightly transparent */
-.titleBar-AC4pGV {
+.titleBar-1it3bQ {
 	background: rgba(0,0,0,0.6);
 	margin-top: 0px;
 	padding-top: 4px;
@@ -73,7 +73,7 @@
 }
 
 /* padding in settings */
-.sidebarRegion-VFTUkN {
+.sidebarRegion-1VBisG {
 	flex: 0.05 0 218px;
 }
 .contentColumn-2hrIYH, .customColumn-Rb6toI{
@@ -85,7 +85,7 @@
 }
 
 /* Emoji, sticker & GIF picker */
-.theme-dark .contentWrapper-SvZHNd, .inspector-3LQtX9, .inspector-S2gM3e{
+.contentWrapper-3vHNP2{
 	background-color: var(--primary-colour);
 	backdrop-filter: blur(2px);
 }
@@ -114,7 +114,7 @@ background-color: var(--searchBox-color);
  }
 
 /* user info popout box. */
-.userPopout-xaxa6l, .theme-dark .root-1gCeng{
+.userPopout-2j1gM4, .theme-dark .root-1gCeng{
 	background-color: var(--primary-colour);
 	backdrop-filter: blur(2px);
 }
@@ -136,7 +136,7 @@ background-color: var(--searchBox-color);
 } 
 
 /* thread, pinned message & inbox popout*/
-.theme-dark .messagesPopoutWrap-1MQ1bW, .container-7uh5fX, .container-enaOkj{
+.messagesPopoutWrap-3zryHW, .browser-mnQ1T7{
 	background: var(--primary-colour);
 	backdrop-filter: blur(2px);
 	border: 2px solid;
@@ -166,7 +166,7 @@ background-color: var(--searchBox-color);
   }
 
 /* collapsible channel bar */
-.sidebar-2K8pFh{
+.sidebar-1tnWFu{
 	width: 58px;
 	transition: 0.8s;
 	transition-delay: 1.2s;
@@ -174,7 +174,7 @@ background-color: var(--searchBox-color);
 	border-right-color: rgba(0, 0, 0, 0.22);
 	background-color: rgba(0,0,0,var(--sidebar-transparency));
 }
-.sidebar-2K8pFh:hover{
+.sidebar-1tnWFu:hover{
 	width: 250px;
 	transition: 0.3s;
 	transition-delay: 0.17s;
