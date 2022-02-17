@@ -1,5 +1,5 @@
 /*Setting background image */
-#app-mount  {
+#app-mount {
 	background-image: var(--background-image);
     	position: absolute;
     	content: '';
@@ -18,7 +18,7 @@
     --background-accent: none;
 	--background-secondary-alt: rgba(0,0,0,0.45)
 }
-.scroller-1Bvpku{
+.scroller-1Bvpku, .guilds-2JjMmN,{
 	background: rgba(0,0,0,var(--sidebar-transparency));
 }
 .container-1r6BKw.themed-ANHk51{
