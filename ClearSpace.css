@@ -33,11 +33,9 @@
 	background: rgba(0,0,0,var(--chat-transparency));
 }
 
-/* Set the windows bar to black and slightly transparent */
-.titleBar-1it3bQ {
-	background: rgba(0,0,0,0.6);
-	margin-top: 0px;
-	padding-top: 4px;
+/* Set the windows bar & guild side bar slightly transparent  */
+.guilds-2JjMmN, .titleBar-1it3bQ{
+    background-color: rgba(0, 0, 0, 0.52) !important;
 }
 
 /* Tweaks for the base dark theme varables */
