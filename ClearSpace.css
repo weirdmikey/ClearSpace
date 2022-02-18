@@ -115,7 +115,7 @@ background-color: var(--searchBox-color);
 
 /* user info popout box. */
 .userPopout-2j1gM4, .theme-dark .root-1gCeng{
-	background-color: var(--primary-colour);
+	background-color: var(--primary-colour) !important;
 	backdrop-filter: blur(2px);
 }
 .input-2_SIlA{
