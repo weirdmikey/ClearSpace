@@ -1,6 +1,6 @@
 /*Setting background image */
 #app-mount {
-	background-image: var(--background-image);
+	background: var(--background-image);
     	position: absolute;
     	content: '';
       	height: 100%;
