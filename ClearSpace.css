@@ -178,6 +178,10 @@ background-color: var(--searchBox-color);
 	transition-delay: 0.17s;
 	border-right: 0px solid;
 }
+.container-1NXEtd, .panels-3wFtMD,.members-3WRCEx, .members-3WRCEx>div{
+	background: none;
+}
+
 /* Remove invite/settings icon unless you hover over a channel in the sidebar  */
 .containerDefault--pIXnN.selected-3LIHYU .iconItem-F7GRxr, .iconVisibility-sTNpHs:focus-within .iconItem-F7GRxr{
 display: none;
